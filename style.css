@@ -1,0 +1,80 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("tapeta.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1040px;
+
+}
+h1,h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+}
+.menu{
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.846);
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+}
+
+h1,h2,p{
+    text-align: center;
+}
+.whiskey,.cigar{
+    text-align: left;
+    width: 49%;
+}
+
+.whiskeyprice,.cigarprice{
+    text-align: right;
+    width: 49%;
+}
+
+.item p{
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+  hr {
+    background-color: black;
+    border-color: black;
+    height: 2px;
+  }
+  
+.bottom-line{
+    margin-top: 25px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: rgb(145, 144, 141);
+}
+
+a:active {
+    color: white;
+}
+
+img {
+    margin-top: -25px;
+    display: block;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
