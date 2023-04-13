@@ -2,8 +2,15 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: url("tapeta.jpg");
     background-repeat: no-repeat;
-    background-size: 1920px 1040px;
-
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+         /*so before there was background-size: 1920px 1040px
+    and it was fkin pain to adjust insted you want to do this
+    width: 100%; 
+    height: 100%;
+    overflow: hidden; overflow:hidden does that the page does not have
+    scrolling which looks terrible */
 }
 h1,h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -11,25 +18,25 @@ h1,h2{
 h1 {
     margin-bottom: 15px;
     margin-top: 0;
-    font-size: 50px;
+    font-size: 50px; /*adjusting*/
 }
 h2 {
     font-size: 30px;
 }
 .menu{
-    max-width: 500px;
+    max-width: 500px; /*speaks for itself*/
     background-color: rgba(255, 255, 255, 0.846);
     width: 75%;
-    margin-right: auto;
+    margin-right: auto; /*this centers the menu */
     margin-left: auto;
-    padding: 20px;
+    padding: 20px; /*this again how its spreaded*/
 }
 
 h1,h2,p{
     text-align: center;
 }
 .whiskey,.cigar{
-    text-align: left;
+    text-align: left; /*you need to align left because its on the left side :)*/
     width: 49%;
 }
 
@@ -40,13 +47,15 @@ h1,h2,p{
 
 .item p{
     font-size: 18px;
-    display: inline-block;
+    display: inline-block; /*this motherfucker this does so the left side and
+    the right side are on the same row you need to play with width of 
+    .whiskeyprice,.cigarprice and .whiskey,.cigar things directly above*/
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
   hr {
-    background-color: black;
+    background-color: black; /*this styles the black lines on the top and bottom*/
     border-color: black;
     height: 2px;
   }
@@ -74,7 +83,7 @@ a:active {
 img {
     margin-top: -25px;
     display: block;
-    height: 75px;
+    height: 75px; /* adjusting icons*/
     margin-left: auto;
     margin-right: auto;
 }
